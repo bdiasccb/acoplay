@@ -1,0 +1,20 @@
+import { defineConfig } from "vitest/config";
+import react from "@vitejs/plugin-react";
+import { fileURLToPath } from "node:url";
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": fileURLToPath(new URL("./", import.meta.url)),
+      // `server-only` lança erro fora do bundler do Next; nos testes vira um módulo vazio.
+      "server-only": fileURLToPath(new URL("./tests/stubs/server-only.ts", import.meta.url)),
+    },
+  },
+  test: {
+    include: ["tests/**/*.test.{ts,tsx}"],
+    environment: "node",
+    restoreMocks: true,
+    unstubEnvs: true,
+  },
+});
