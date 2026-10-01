@@ -1,0 +1,65 @@
+# ATENÇÃO: este repositório é PÚBLICO.
+# Tudo que for sensível ou interno fica fora do git, sem exceção.
+
+# --- Claude / IA ---
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# --- Documentação interna (contexto, design, planos, roteiros de teste, guias) ---
+docs/
+*.local.md
+
+# --- Variáveis de ambiente (todas, inclusive exemplos) ---
+.env
+.env.*
+*.env
+
+# --- Segredos e credenciais ---
+secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.jks
+*credentials*.json
+*service-account*.json
+*secret*.json
+id_rsa*
+id_ed25519*
+
+# --- Vercel ---
+.vercel/
+
+# --- Dependências e build (Next.js) ---
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Testes ---
+coverage/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Sistema e editores ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
