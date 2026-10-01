@@ -1,0 +1,25 @@
+{
+  "page": 1,
+  "total_pages": 3,
+  "total_results": 42,
+  "results": [
+    {
+      "id": 671,
+      "title": "Harry Potter e a Pedra Filosofal",
+      "release_date": "2001-11-16",
+      "poster_path": "/poster-671.jpg",
+      "backdrop_path": "/backdrop-671.jpg",
+      "overview": "Harry Potter é um garoto órfão que descobre ser um bruxo.",
+      "vote_average": 7.912
+    },
+    {
+      "id": 672,
+      "title": "Harry Potter e a Câmara Secreta",
+      "release_date": "2002-11-13",
+      "poster_path": null,
+      "backdrop_path": null,
+      "overview": "",
+      "vote_average": 7.7
+    }
+  ]
+}

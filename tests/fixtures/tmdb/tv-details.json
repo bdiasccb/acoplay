@@ -1,0 +1,24 @@
+{
+  "id": 1396,
+  "name": "Breaking Bad",
+  "first_air_date": "2008-01-20",
+  "poster_path": "/poster-1396.jpg",
+  "backdrop_path": "/backdrop-1396.jpg",
+  "overview": "Um professor de química descobre que tem câncer.",
+  "vote_average": 8.9,
+  "episode_run_time": [45, 47],
+  "genres": [{ "id": 18, "name": "Drama" }],
+  "seasons": [
+    { "season_number": 0, "name": "Especiais", "episode_count": 9, "poster_path": null, "air_date": "2009-02-17" },
+    { "season_number": 1, "name": "Temporada 1", "episode_count": 7, "poster_path": "/season-1.jpg", "air_date": "2008-01-20" },
+    { "season_number": 2, "name": "Temporada 2", "episode_count": 13, "poster_path": null, "air_date": "2009-03-08" }
+  ],
+  "credits": {
+    "cast": [
+      { "id": 17419, "name": "Bryan Cranston", "character": "Walter White", "profile_path": null, "order": 0 }
+    ]
+  },
+  "videos": { "results": [] },
+  "watch/providers": { "results": {} },
+  "similar": { "page": 1, "total_pages": 0, "total_results": 0, "results": [] }
+}

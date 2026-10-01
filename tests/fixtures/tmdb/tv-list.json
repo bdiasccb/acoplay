@@ -1,0 +1,16 @@
+{
+  "page": 1,
+  "total_pages": 1,
+  "total_results": 1,
+  "results": [
+    {
+      "id": 1396,
+      "name": "Breaking Bad",
+      "first_air_date": "2008-01-20",
+      "poster_path": "/poster-1396.jpg",
+      "backdrop_path": "/backdrop-1396.jpg",
+      "overview": "Um professor de química descobre que tem câncer.",
+      "vote_average": 8.9
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": 671,
+  "title": "Harry Potter e a Pedra Filosofal",
+  "release_date": "2001-11-16",
+  "poster_path": "/poster-671.jpg",
+  "backdrop_path": "/backdrop-671.jpg",
+  "overview": "Harry Potter é um garoto órfão que descobre ser um bruxo.",
+  "vote_average": 7.912,
+  "runtime": 152,
+  "genres": [
+    { "id": 12, "name": "Aventura" },
+    { "id": 14, "name": "Fantasia" }
+  ],
+  "credits": {
+    "cast": [
+      { "id": 10989, "name": "Rupert Grint", "character": "Ron Weasley", "profile_path": null, "order": 1 },
+      { "id": 10980, "name": "Daniel Radcliffe", "character": "Harry Potter", "profile_path": "/profile-10980.jpg", "order": 0 }
+    ]
+  },
+  "videos": {
+    "results": [
+      { "key": "en-trailer", "site": "YouTube", "type": "Trailer", "iso_639_1": "en", "official": true, "name": "Official Trailer" },
+      { "key": "pt-teaser", "site": "YouTube", "type": "Teaser", "iso_639_1": "pt", "official": true, "name": "Teaser Dublado" },
+      { "key": "pt-trailer", "site": "YouTube", "type": "Trailer", "iso_639_1": "pt", "official": true, "name": "Trailer Dublado" },
+      { "key": "vimeo-1", "site": "Vimeo", "type": "Trailer", "iso_639_1": "pt", "official": true, "name": "Vimeo" }
+    ]
+  },
+  "watch/providers": {
+    "results": {
+      "BR": {
+        "link": "https://www.themoviedb.org/movie/671/watch?locale=BR",
+        "flatrate": [
+          { "provider_id": 1899, "provider_name": "Max", "logo_path": "/logo-max.jpg", "display_priority": 2 }
+        ],
+        "rent": [
+          { "provider_id": 2, "provider_name": "Apple TV", "logo_path": "/logo-apple.jpg", "display_priority": 4 },
+          { "provider_id": 3, "provider_name": "Google Play Filmes", "logo_path": "/logo-google.jpg", "display_priority": 1 }
+        ],
+        "buy": [
+          { "provider_id": 2, "provider_name": "Apple TV", "logo_path": "/logo-apple.jpg", "display_priority": 4 }
+        ]
+      },
+      "US": {
+        "link": "https://www.themoviedb.org/movie/671/watch?locale=US",
+        "flatrate": [
+          { "provider_id": 9, "provider_name": "Peacock", "logo_path": "/logo-peacock.jpg", "display_priority": 1 }
+        ]
+      }
+    }
+  },
+  "similar": {
+    "page": 1,
+    "total_pages": 1,
+    "total_results": 1,
+    "results": [
+      {
+        "id": 672,
+        "title": "Harry Potter e a Câmara Secreta",
+        "release_date": "2002-11-13",
+        "poster_path": null,
+        "backdrop_path": null,
+        "overview": "",
+        "vote_average": 7.7
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "season_number": 1,
+  "name": "Temporada 1",
+  "overview": "Walter White começa uma nova vida.",
+  "poster_path": "/season-1.jpg",
+  "episodes": [
+    {
+      "episode_number": 1,
+      "name": "Piloto",
+      "overview": "Walter recebe uma notícia que muda tudo.",
+      "still_path": "/still-1.jpg",
+      "air_date": "2008-01-20",
+      "runtime": 58
+    },
+    {
+      "episode_number": 2,
+      "name": "O Gato Está no Saco",
+      "overview": "",
+      "still_path": null,
+      "air_date": null,
+      "runtime": null
+    }
+  ]
+}
